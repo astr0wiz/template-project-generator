@@ -1,0 +1,286 @@
+object ProjGenForm: TProjGenForm
+  Left = 578
+  Height = 776
+  Top = 281
+  Width = 715
+  BorderStyle = bsToolWindow
+  Caption = 'Jamie''s Template Project Generator'
+  ClientHeight = 776
+  ClientWidth = 715
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 27
+    Height = 15
+    Top = 32
+    Width = 69
+    Caption = 'Template List'
+    ParentColor = False
+  end
+  object TemplateList: TStringGrid
+    Left = 27
+    Height = 100
+    Top = 59
+    Width = 664
+    ColCount = 4
+    Columns = <    
+      item
+        Title.Caption = 'Name'
+        Width = 100
+      end    
+      item
+        Title.Caption = 'Description'
+        Width = 340
+      end    
+      item
+        Title.Caption = 'Creation Date'
+        Width = 100
+      end    
+      item
+        Title.Caption = 'Author'
+        Width = 100
+      end>
+    FixedColor = clMoneyGreen
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect, goSmoothScroll]
+    RowCount = 1
+    ScrollBars = ssVertical
+    TabOrder = 0
+    OnSelectCell = TemplateListSelectCell
+  end
+  object Label2: TLabel
+    Left = 27
+    Height = 15
+    Top = 186
+    Width = 96
+    Caption = 'Generation Details'
+    ParentColor = False
+  end
+  object Panel1: TPanel
+    Left = 27
+    Height = 485
+    Top = 211
+    Width = 664
+    BevelInner = bvRaised
+    ClientHeight = 485
+    ClientWidth = 664
+    ParentFont = False
+    TabOrder = 1
+    object Label3: TLabel
+      Left = 20
+      Height = 15
+      Top = 22
+      Width = 32
+      Caption = 'Name'
+      ParentColor = False
+    end
+    object TemplateNameLabel: TLabel
+      Left = 162
+      Height = 19
+      Top = 20
+      Width = 350
+      Alignment = taCenter
+      AutoSize = False
+      Caption = '{ Template Name }'
+      Color = clGray
+      Font.Color = clCream
+      Font.Height = -13
+      Font.Style = [fsItalic]
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object Label5: TLabel
+      Left = 20
+      Height = 15
+      Top = 41
+      Width = 60
+      Caption = 'Description'
+      ParentColor = False
+    end
+    object TemplateDescriptionLabel: TLabel
+      Left = 162
+      Height = 19
+      Top = 39
+      Width = 350
+      Alignment = taCenter
+      AutoSize = False
+      Caption = '{ Template Description}'
+      Color = clGray
+      Font.Color = clCream
+      Font.Height = -13
+      Font.Style = [fsItalic]
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object Label7: TLabel
+      Left = 20
+      Height = 15
+      Top = 60
+      Width = 72
+      Caption = 'Creation Date'
+      ParentColor = False
+    end
+    object TemplateCreationDateLabel: TLabel
+      Left = 162
+      Height = 19
+      Top = 58
+      Width = 350
+      Alignment = taCenter
+      AutoSize = False
+      Caption = '{ Template Creation Date }'
+      Color = clGray
+      Font.Color = clCream
+      Font.Height = -13
+      Font.Style = [fsItalic]
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object Label9: TLabel
+      Left = 20
+      Height = 15
+      Top = 79
+      Width = 37
+      Caption = 'Author'
+      ParentColor = False
+    end
+    object TemplateAuthorLabel: TLabel
+      Left = 162
+      Height = 19
+      Top = 77
+      Width = 350
+      Alignment = taCenter
+      AutoSize = False
+      Caption = '{ Template Author }'
+      Color = clGray
+      Font.Color = clCream
+      Font.Height = -13
+      Font.Style = [fsItalic]
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+    object Label4: TLabel
+      Left = 20
+      Height = 15
+      Top = 152
+      Width = 52
+      Caption = 'Token List'
+      ParentColor = False
+    end
+    object TokenList: TStringGrid
+      Left = 20
+      Height = 160
+      Top = 175
+      Width = 628
+      ColCount = 4
+      Columns = <      
+        item
+          Title.Caption = 'Token'
+          Width = 120
+        end      
+        item
+          Title.Caption = 'Description'
+          Width = 244
+        end      
+        item
+          Title.Caption = 'Default Value'
+          Width = 120
+        end      
+        item
+          Title.Caption = 'New Value'
+          Width = 120
+        end>
+      FixedColor = clMoneyGreen
+      FixedCols = 0
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goSmoothScroll]
+      RowCount = 1
+      ScrollBars = ssVertical
+      TabOrder = 0
+      OnDrawCell = TokenListDrawCell
+      OnValidateEntry = TokenListValidateEntry
+    end
+    object Label6: TLabel
+      Left = 20
+      Height = 15
+      Top = 408
+      Width = 100
+      Caption = 'Project Destination'
+      ParentColor = False
+    end
+    object ProjectDirectory: TDirectoryEdit
+      Left = 20
+      Height = 23
+      Top = 432
+      Width = 624
+      OnAcceptDirectory = ProjectDirectoryAcceptDirectory
+      ShowHidden = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 3
+      OnExit = ProjectDirectoryExit
+    end
+    object AddToken: TBitBtn
+      Left = 432
+      Height = 30
+      Top = 344
+      Width = 92
+      Caption = 'Add Token'
+      OnClick = AddTokenClick
+      TabOrder = 1
+    end
+    object DeleteToken: TBitBtn
+      Left = 552
+      Height = 30
+      Top = 344
+      Width = 92
+      Caption = 'Delete Token'
+      OnClick = DeleteTokenClick
+      TabOrder = 2
+    end
+    object EqualityWarning: TLabel
+      Left = 24
+      Height = 23
+      Top = 348
+      Width = 386
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'WARNING: TOKENS AND VALUES SHOULD NOT BE THE SAME'
+      Color = 13737321
+      Font.Color = clYellow
+      Font.Height = -13
+      Font.Style = [fsBold, fsItalic]
+      Layout = tlCenter
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+      Visible = False
+    end
+  end
+  object ExitButton: TButton
+    Left = 32
+    Height = 41
+    Top = 720
+    Width = 109
+    Caption = 'E&xit'
+    Font.Height = -16
+    OnClick = ExitButtonClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object GenerateButton: TButton
+    Left = 587
+    Height = 41
+    Top = 720
+    Width = 109
+    Caption = 'Generate'
+    Font.Height = -16
+    OnClick = GenerateButtonClick
+    ParentFont = False
+    TabOrder = 3
+  end
+end

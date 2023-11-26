@@ -1,0 +1,61 @@
+object HelpForm: THelpForm
+  Left = 448
+  Height = 556
+  Top = 186
+  Width = 368
+  BorderIcons = []
+  BorderStyle = bsToolWindow
+  Caption = 'Project Generator Help'
+  ClientHeight = 556
+  ClientWidth = 368
+  OnShow = FormShow
+  LCLVersion = '2.0.10.0'
+  object ButtonPanel1: TButtonPanel
+    Left = 16
+    Height = 26
+    Top = 514
+    Width = 336
+    BorderSpacing.Around = 16
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 0
+    ShowButtons = [pbClose]
+    ShowBevel = False
+  end
+  object Tabs: TTabControl
+    Left = 16
+    Height = 432
+    Top = 64
+    Width = 336
+    OnChange = TabsChange
+    TabIndex = 0
+    Tabs.Strings = (
+      'Templates'
+      'Tokens'
+      'File Names'
+    )
+    TabOrder = 1
+    object Frame: TFrameViewer
+      Left = 8
+      Height = 384
+      Top = 40
+      Width = 318
+      CodePage = 0
+      HistoryIndex = 0
+      HistoryMaxCount = 0
+      NoSelect = False
+      PrintMarginBottom = 2
+      PrintMarginLeft = 2
+      PrintMarginRight = 2
+      PrintMarginTop = 2
+      PrintScale = 1
+      TabOrder = 1
+    end
+  end
+end

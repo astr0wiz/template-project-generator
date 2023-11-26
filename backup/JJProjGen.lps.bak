@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Debug"/>
+    <Units Count="21">
+      <Unit0>
+        <Filename Value="JJProjGen.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="5" Y="25"/>
+        <UsageCount Value="206"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="projgenmainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ProjGenForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="projgenMainform"/>
+        <CursorPos X="81" Y="249"/>
+        <UsageCount Value="206"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="projgengenform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GenForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="projgenGenform"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="151"/>
+        <CursorPos Y="597"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="1">
+          <Item0 Y="395"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="projgenmeta.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MetaForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="87" Y="9"/>
+        <UsageCount Value="177"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\Lib\MyUnits\commonutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="17"/>
+        <CursorPos X="63" Y="41"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="projgenpreview.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PreviewForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="47" Y="21"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="projgenhelpform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="HelpForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="8"/>
+        <CursorPos X="37" Y="67"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="projgenrename.pas"/>
+        <ComponentName Value="RenameForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="71" Y="13"/>
+        <UsageCount Value="126"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="projgennewfolder.pas"/>
+        <ComponentName Value="NewFolderForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="58"/>
+        <UsageCount Value="30"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2039"/>
+        <CursorPos X="28" Y="2061"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="D:\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2799"/>
+        <CursorPos X="3" Y="2832"/>
+        <UsageCount Value="7"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="D:\lazarus\components\lazutils\graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="48"/>
+        <UsageCount Value="7"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="D:\lazarus\lcl\include\treeview.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1579"/>
+        <CursorPos Y="1611"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="D:\lazarus\fpc\3.2.0\source\packages\regexpr\src\regexpr.pas"/>
+        <UnitName Value="RegExpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="50"/>
+        <CursorPos X="3" Y="83"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="D:\lazarus\lcl\editbtn.pas"/>
+        <UnitName Value="EditBtn"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1503"/>
+        <CursorPos Y="1537"/>
+        <UsageCount Value="18"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="D:\lazarus\fpc\3.2.0\source\rtl\win64\system.pp"/>
+        <UnitName Value="System"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="2" Y="42"/>
+        <UsageCount Value="8"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\_Test_\NewSDL\GameEngine.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="5"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="D:\lazarus\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3126"/>
+        <CursorPos X="3" Y="3176"/>
+        <UsageCount Value="7"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="E:\Users\james\AppData\Local\lazarus\onlinepackagemanager\packages\castle-engine-master\src\base\castleutils_struct_list.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="34" Y="4"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="E:\Users\james\AppData\Local\lazarus\onlinepackagemanager\packages\castle-engine-master\packages\castle_base.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="11"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="H:\Pascal Packages\HtmlViewer-HtmlViewer-11.9\HtmlViewer-HtmlViewer-11.9\source\framview.pas"/>
+        <UnitName Value="FramView"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2720"/>
+        <CursorPos Y="2751"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit20>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="projgengenform.pas"/>
+        <Caret Line="424" Column="74" TopLine="412"/>
+      </Position1>
+      <Position2>
+        <Filename Value="projgengenform.pas"/>
+        <Caret Line="427" TopLine="412"/>
+      </Position2>
+      <Position3>
+        <Filename Value="projgengenform.pas"/>
+        <Caret Line="6" Column="62"/>
+      </Position3>
+      <Position4>
+        <Filename Value="projgengenform.pas"/>
+        <Caret Line="301" Column="98" TopLine="287"/>
+      </Position4>
+      <Position5>
+        <Filename Value="projgengenform.pas"/>
+        <Caret Line="389" Column="61" TopLine="367"/>
+      </Position5>
+      <Position6>
+        <Filename Value="projgengenform.pas"/>
+        <Caret Line="390" TopLine="367"/>
+      </Position6>
+      <Position7>
+        <Filename Value="projgengenform.pas"/>
+        <Caret Line="283" Column="84" TopLine="275"/>
+      </Position7>
+      <Position8>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="22" Column="86"/>
+      </Position8>
+      <Position9>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="87" Column="31" TopLine="70"/>
+      </Position9>
+      <Position10>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="254" Column="5" TopLine="220"/>
+      </Position10>
+      <Position11>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="143" TopLine="131"/>
+      </Position11>
+      <Position12>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="90" Column="21" TopLine="75"/>
+      </Position12>
+      <Position13>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="274" Column="106" TopLine="237"/>
+      </Position13>
+      <Position14>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="273" Column="106" TopLine="236"/>
+      </Position14>
+      <Position15>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="272" Column="106" TopLine="235"/>
+      </Position15>
+      <Position16>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="91" TopLine="56"/>
+      </Position16>
+      <Position17>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="194" Column="108" TopLine="143"/>
+      </Position17>
+      <Position18>
+        <Filename Value="projgenmainform.pas"/>
+        <Caret Line="183" Column="24" TopLine="138"/>
+      </Position18>
+      <Position19>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="4" Column="77"/>
+      </Position19>
+      <Position20>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="17" Column="92"/>
+      </Position20>
+      <Position21>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="18" Column="65"/>
+      </Position21>
+      <Position22>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="17" Column="65"/>
+      </Position22>
+      <Position23>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="16" Column="67"/>
+      </Position23>
+      <Position24>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="17" Column="65"/>
+      </Position24>
+      <Position25>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="21" Column="109"/>
+      </Position25>
+      <Position26>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="23" Column="109"/>
+      </Position26>
+      <Position27>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="29" Column="43"/>
+      </Position27>
+      <Position28>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="47" Column="19"/>
+      </Position28>
+      <Position29>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="52" Column="31"/>
+      </Position29>
+      <Position30>
+        <Filename Value="projgenhelpform.pas"/>
+        <Caret Line="59" Column="57" TopLine="5"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

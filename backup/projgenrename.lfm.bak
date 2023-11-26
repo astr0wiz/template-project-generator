@@ -1,0 +1,42 @@
+object RenameForm: TRenameForm
+  Left = 535
+  Height = 96
+  Top = 423
+  Width = 361
+  BorderStyle = bsSizeToolWin
+  Caption = 'Rename'
+  ClientHeight = 96
+  ClientWidth = 361
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 13
+    Height = 15
+    Top = 6
+    Width = 135
+    Caption = 'Enter new name and Save'
+    ParentColor = False
+  end
+  object EntityName: TEdit
+    Left = 16
+    Height = 23
+    Top = 27
+    Width = 328
+    TabOrder = 0
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 34
+    Top = 56
+    Width = 349
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 1
+    ShowButtons = [pbOK, pbCancel]
+  end
+end
